@@ -101,7 +101,7 @@ ul li {
     font-size: 21px;
   }
 }
-@media screen and (max-width: 400) {
+@media screen and (max-width: 400px) {
   .posts-wraper .post-title {
     font-size: 17px;
   }
