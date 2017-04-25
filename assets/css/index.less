@@ -1,0 +1,104 @@
+@site-width: 720px;
+/*
+  defalut
+*/
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
+  font-size: 15px;
+}
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+a:hover {
+  color: #3370a4;
+  text-decoration: underline;
+}
+body {
+}
+ul li {
+  list-style-type: none;
+}
+.site-wrapper {
+  margin: 0 auto;
+  max-width: @site-width;
+  padding: 0 20px;
+  font-size: 15px;
+}
+.site-header {
+  margin: 0 auto;
+  max-width: @site-width;
+  overflow: hidden;
+  border-bottom: 1px dashed #ccc;
+  font-size: 17px;
+  text-align: center;
+  >ul {
+    display: inline-block;
+    >li {
+      float: left;
+      padding: 20px 20px;
+    }
+  }
+}
+.site-footer {
+  line-height: 2;
+  text-align: center;
+  color: rgba(0,0,0,0.6);
+}
+
+/*
+  index  
+*/
+.posts-wraper {
+  .post-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    &:hover {
+      background-color: #eee;
+    }
+    a {
+      display: inline-block;
+      border-bottom: 1px dashed #ccc;
+      line-height: 2;
+    }
+  }
+}
+
+/*
+  post
+*/
+.post-wraper {
+  font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  code {
+    border-top: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+    font-family: consolas, monospace;
+  }
+  img {
+    max-width: 100%;
+  }
+  blockquote {
+    margin: 20px;
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 0;
+      border-left: 2px solid #ccc; 
+    }
+    p {
+      padding-left: 10px;
+    }
+  }
+  .post-sign {
+    text-align: right;
+  }
+}

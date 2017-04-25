@@ -1,0 +1,12 @@
+{{!< default}}
+{{!-- The tag above means - insert everything in this file into the {body} of the default.hbs template --}}
+
+<div class="posts-wraper">
+  {{#foreach posts}}
+  <article class="{{post_class}}">
+    <h2 class="post-title" id="{{title}}">
+      <a href="{{url}}">{{title}}</a>
+    </h2>
+  </article>
+  {{/foreach}}
+</div>

@@ -1,2 +1,7 @@
-# KISN
-ghost theme keep it simple &amp; naive
+# kisn
+ghost theme 
+
+keep it simple & naive
+
+[live demo](https://todoit.me)
+
