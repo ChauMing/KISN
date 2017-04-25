@@ -40,7 +40,8 @@ ul li {
 }
 .site-header > ul > li {
   float: left;
-  padding: 20px 20px;
+  padding: 0 10px;
+  line-height: 2;
 }
 .site-footer {
   line-height: 2;
@@ -94,4 +95,14 @@ ul li {
 }
 .post-wraper .post-sign {
   text-align: right;
+}
+@media screen and (max-width: 500px) {
+  .posts-wraper .post-title {
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 400) {
+  .posts-wraper .post-title {
+    font-size: 17px;
+  }
 }

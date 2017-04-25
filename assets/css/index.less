@@ -41,7 +41,8 @@ ul li {
     display: inline-block;
     >li {
       float: left;
-      padding: 20px 20px;
+      padding: 0 10px;
+      line-height: 2;
     }
   }
 }
@@ -100,5 +101,21 @@ ul li {
   }
   .post-sign {
     text-align: right;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .posts-wraper {
+    .post-title {
+      font-size: 21px;
+    }
+  }
+}
+
+@media screen and (max-width: 400) {
+  .posts-wraper {
+    .post-title {
+      font-size: 17px;
+    }
   }
 }
